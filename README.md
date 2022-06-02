@@ -55,13 +55,7 @@ rm -rf /usr/local/bin/pathfinder
 ```
 
 # That's all the procedures, thank you.
-```
-https://t.me/RuesAnnouncement
-https://t.me/RuesChat
-https://t.me/RuesNode
-https://t.me/RuesNodeChat
-https://forum.rues.info/
-```
+
 
 
 
