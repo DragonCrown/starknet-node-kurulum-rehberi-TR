@@ -1,10 +1,8 @@
-## StarkNet, Node Kurulum Kılavuzu Türkçe Çeviri.
+## StarkNet, Node Installation Guide English Translation.
 
-(İngilizceden çevrilmiştir, alıntıdır)
+# First we create an Alchemy account.
 
-# Öncelikle bir Alchemy hesabı oluşturuyoruz.
-
-Starknet'i çalıştırmak için Alchemy hizmeti tarafından sağlanan düğümleri kullanacağız, bu nedenle [alchemy.com](https://www.alchemy.com/)'a kaydolun ve kişisel hesabınızda endpointler oluşturalım.
+We will use nodes provided by the Alchemy service to run Starknet, so sign up at [alchemy.com](https://www.alchemy.com/) and we will create endpoints in your personal account.
 
 # Sırasıyla görseller:
 
@@ -19,35 +17,35 @@ Starknet'i çalıştırmak için Alchemy hizmeti tarafından sağlanan düğüml
 ![image](https://user-images.githubusercontent.com/101149671/171650653-8eb80d02-d369-4602-9770-cd0d17fa8a06.png)
 
 
-Görsellerde gösterdiğim şekilde hesabı oluşturun ve adresi kopyalayın.
+Create the account as I have shown in the images and copy the address.
 
-# KURULUM:
+# SETUP
 
 ```
 ALCHEMY=YOUR_ALCHEMY_HTTP_ADDRESS
 echo 'export ALCHEMY='$ALCHEMY >> $HOME/.bash_profile
 ```
 
-YOUR_ALCHEMY_HTTP_ADDRESS kısmına az önce alchemy üzerinden kopyaladığımız adresi girelim.
+YOUR_ALCHEMY_HTTP_ADDRESS enter the address we just copied from alchemy.
 
-# Hızlı kurulum için script:
+# Script for quick installation:
 
 ```
 wget -O starknet.sh https://api.nodes.guru/starknet.sh && chmod +x starknet.sh && ./starknet.sh
 ```
 
-# Logları takip etmek için:
+# To follow the logs:
 
 ```
 journalctl -u starknetd -f
 ```
 
-# Node restart atmak için:
+# To restart the node:
 ```
 systemctl restart starknetd
 ```
 
-# Node silmek için:
+# To delete a node:
 ```
 systemctl stop starknetd
 systemctl disable starknetd
@@ -56,7 +54,7 @@ rm -rf /etc/systemd/system/starknetd.service
 rm -rf /usr/local/bin/pathfinder
 ```
 
-# İşlemler bu kadar, teşekkürler.
+# That's all the procedures, thank you.
 ```
 https://t.me/RuesAnnouncement
 https://t.me/RuesChat
