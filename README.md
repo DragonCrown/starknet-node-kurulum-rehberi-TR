@@ -4,7 +4,7 @@
 
 We will use nodes provided by the Alchemy service to run Starknet, so sign up at [alchemy.com](https://www.alchemy.com/) and we will create endpoints in your personal account.
 
-# Sırasıyla görseller:
+# Images in sequence:
 
 ![image](https://user-images.githubusercontent.com/101149671/171650488-9846b8e5-d76d-43a7-a256-402cba2e0f8a.png)
 
