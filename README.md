@@ -54,7 +54,7 @@ rm -rf /etc/systemd/system/starknetd.service
 rm -rf /usr/local/bin/pathfinder
 ```
 
-# That's all the procedures, thank you.
+# That's all the procedures, thank Rues
 
 
 
